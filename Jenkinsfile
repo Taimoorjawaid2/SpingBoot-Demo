@@ -9,7 +9,16 @@ agent any
 
         stages {
 
-            stage('Build') {
+
+        	stage("Git Clone"){
+                 steps {
+
+                git credentialsId: 'GIT_CREDENTIALS', url: 'https://github.com/owais2021/spring-boot-web-application.git'
+                }
+          }
+
+
+             stage('Build') {
                  steps {
 
                         sh "mvn clean package -Dmaven.test.skip=true"
@@ -44,7 +53,23 @@ agent any
                 }
             }
 
+        stage ("wait_prior_starting_smoke_testing") {
+              steps {
 
+                 echo 'Waiting for deployment to complete prior starting'
+                 sleep 20 // seconds
+
+              }
+        }
+
+        stage("Run Application") {
+               steps {
+
+                   sh 'pwd'
+                   sh 'java -jar /var/lib/jenkins/workspace/SpringBoot_Web_Application/target/news-0.0.1.war &'
+
+              }
+          }
     }
 
 }
