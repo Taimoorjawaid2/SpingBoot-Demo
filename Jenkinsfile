@@ -10,12 +10,12 @@ agent any
         stages {
 
 
-        	stage("Git Clone"){
-                 steps {
+        	//stage("Git Clone"){
+           //      steps {
 
-                git credentialsId: 'GIT_CREDENTIALS', url: 'https://github.com/owais2021/spring-boot-web-application.git'
-                }
-          }
+         //       git credentialsId: 'GIT_CREDENTIALS', url: 'https://github.com/owais2021/Setup-Spring-boot-Application-Jenkins-Pipeline.git'
+       //         }
+       //   }
 
 
              stage('Build') {
