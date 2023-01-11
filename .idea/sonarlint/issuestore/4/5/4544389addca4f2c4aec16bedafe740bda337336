@@ -1,0 +1,34 @@
+
+_squid:S11925"HDefine a constant instead of duplicating this literal "contact" 3 times.(ÜÏŸö
+rsquid:S1192l"[Define a constant instead of duplicating this literal "cs17465ae5683299db9d259cb6" 4 times.(¨½¼³
+\squid:S1192'"FDefine a constant instead of duplicating this literal "about" 5 times.(½í×P
+ksquid:S1192l"TDefine a constant instead of duplicating this literal "blt7979d15c28261b93" 4 times.(¨½¼³
+esquid:S1192_"IDefine a constant instead of duplicating this literal "products" 4 times.(Éø¨¸úÿÿÿÿ
+fsquid:S1192C"JDefine a constant instead of duplicating this literal "headlines" 4 times.(ã€Ö¼ÿÿÿÿÿ
+bsquid:S1192l"KDefine a constant instead of duplicating this literal "production" 4 times.(¨½¼³
+jsquid:S00117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğšø
+@squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148¥"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148¿"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148Ú"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Zsquid:S1155B">Use isEmpty() to check whether the collection is empty or not.(Õ‰ÿÿÿÿÿÿ
+Zsquid:S1155O">Use isEmpty() to check whether the collection is empty or not.(Õ‰ÿÿÿÿÿÿ
+Tsquid:S1155^">Use isEmpty() to check whether the collection is empty or not.(‡|
+Usquid:S1155•">Use isEmpty() to check whether the collection is empty or not.(¨¶‰h
+psquid:S4144L"TUpdate this method so that its implementation is not identical to "home" on line 63.(®¾åİøÿÿÿÿ
+N
+squid:S106c"9Replace this use of System.out or System.err by a logger.(Õ«º
+U
+squid:S106€"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+Csquid:S1168„"+Return an empty collection instead of null.(¥¹ï
+U
+squid:S106¤"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+Csquid:S1168§"+Return an empty collection instead of null.(¥¹ï
+U
+squid:S106¸"9Replace this use of System.out or System.err by a logger.(ØÅã¸øÿÿÿÿ
+U
+squid:S106¾"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+U
+squid:S106Ó"9Replace this use of System.out or System.err by a logger.(ú¾ûÿùÿÿÿÿ
+U
+squid:S106Ù"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
