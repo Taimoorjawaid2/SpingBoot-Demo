@@ -19,7 +19,7 @@ spec:
   selector:
     matchLabels:
       app: news
-  replicas: 1 # Number of replicas that will be created for this deployment
+  replicas: 2 # Number of replicas that will be created for this deployment
   template:
     metadata:
       labels:

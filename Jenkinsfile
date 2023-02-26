@@ -62,14 +62,24 @@ agent any
               }
         }
 
-        stage("Run Application") {
-               steps {
+        stage('Deploy to ACS'){
+            steps{
+               sh 'kubectl apply -f deployment.yaml'
+            }
+        }
 
-                   sh 'pwd'
+      ///  stage("Run Application") {
+           //    steps {
+
+              //     sh 'pwd'
                    sh 'java -jar /var/lib/jenkins/workspace/SpringBoot_Web_Application/target/news-0.0.1.war &'
 
-              }
-          }
+             // }
+         // }
+
+
+
+
     }
 
 }
