@@ -72,7 +72,7 @@ agent any
            //    steps {
 
               //     sh 'pwd'
-                   sh 'java -jar /var/lib/jenkins/workspace/SpringBoot_Web_Application/target/news-0.0.1.war &'
+              //     sh 'java -jar /var/lib/jenkins/workspace/SpringBoot_Web_Application/target/news-0.0.1.war &'
 
              // }
          // }
