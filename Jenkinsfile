@@ -7,7 +7,7 @@ agent any
         maven "Maven"
     }
 
-     //   stages {
+      stages {
 
 
        // 	stage("Git Clone"){
