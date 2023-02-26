@@ -1,6 +1,9 @@
 # Docker Build Stage
 
 FROM openjdk:11
+WORKDIR /opt
+ENV PORT 8081
 EXPOSE 8081
-ADD target/news-0.0.1.war news-0.0.1.war
-ENTRYPOINT ["java","-war","/news-0.0.1.war"]
+ADD target/news-0.0.1.war /opt/news-0.0.1.war
+ENTRYPOINT exec java $JAVA_OPTS -war /news-0.0.1.war
+#ENTRYPOINT ["java","-war","/news-0.0.1.war"]
