@@ -62,11 +62,7 @@ agent any
               }
         }
 
-        stage('Deploy to ACS'){
-            steps{
-               sh 'kubectl apply -f deployment.yaml'
-            }
-        }
+
 
       ///  stage("Run Application") {
            //    steps {
