@@ -29,10 +29,10 @@ agent any
                  steps {
 
                     sh 'docker version'
-                    sh 'docker build -t news .'
+                    sh 'docker build -t demo .'
                     sh 'docker image list'
-                    sh 'docker tag news owaiskhan02/webapplication:news'
-                     sh 'docker run -p 8081:8081 news'
+                    sh 'docker tag news owaiskhan02/webapplication:demo'
+
 
                 }
             }
@@ -49,7 +49,7 @@ agent any
             stage("Push Image to Docker Hub"){
                  steps {
 
-                sh 'docker push owaiskhan02/webapplication:news'
+                sh 'docker push owaiskhan02/webapplication:demo'
 
 
 
