@@ -32,6 +32,7 @@ agent any
                     sh 'docker build -t news .'
                     sh 'docker image list'
                     sh 'docker tag news owaiskhan02/webapplication:news'
+                     sh 'docker run -p 8081:8081 news'
 
                 }
             }
@@ -49,7 +50,7 @@ agent any
                  steps {
 
                 sh 'docker push owaiskhan02/webapplication:news'
-                sh 'docker run 8081:8081 news'
+
 
 
                 }
