@@ -62,15 +62,6 @@ agent any
               }
         }
 
-         stage("SSH Into k8s Server") {
-             steps {
-             sh name 'minikube'
-             sh host '192.168.49'
-
-             }
-        }
-
-
 
       ///  stage("Run Application") {
            //    steps {
