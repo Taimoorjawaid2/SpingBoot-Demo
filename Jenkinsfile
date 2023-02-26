@@ -64,10 +64,9 @@ agent any
 
          stage("SSH Into k8s Server") {
              steps {
-                def remote = [:]
-                remote.name = 'minikube'
-                remote.host = '192.168.49'
-                remote.allowAnyHosts = true
+             sh name 'minikube'
+             sh host '192.168.49'
+
              }
         }
 
