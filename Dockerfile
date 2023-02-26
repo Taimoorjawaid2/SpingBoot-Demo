@@ -1,8 +1,8 @@
 # Docker Build Stage
 
 FROM openjdk:11
-WORKDIR /opt
+#WORKDIR /opt
 ENV PORT 8081
 EXPOSE 8081
-ADD target/demo.jar /opt/demo.jar
+ADD target/demo.jar /demo.jar
 ENTRYPOINT ["java","-jar","/demo.jar"]
