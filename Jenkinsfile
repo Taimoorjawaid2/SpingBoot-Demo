@@ -62,13 +62,22 @@ agent any
               }
         }
 
+         stage("SSH Into k8s Server") {
+             steps {
+                def remote = [:]
+                remote.name = 'minikube'
+                remote.host = '192.168.49'
+                remote.allowAnyHosts = true
+             }
+        }
+
 
 
       ///  stage("Run Application") {
            //    steps {
 
               //     sh 'pwd'
-              //     sh 'java -jar /var/lib/jenkins/workspace/SpringBoot_Web_Application/target/news-0.0.1.war &'
+              //     sh 'java -jar /var/lib/jenkins/workspace/SpringBoot_Web_Application/target/news-0.0.1.jar &'
 
              // }
          // }
