@@ -66,14 +66,14 @@ agent any
         }
 
 
-      ///  stage("Run Application") {
-           //    steps {
+        stage("Run Application") {
+              steps {
 
-              //     sh 'pwd'
-              //     sh 'java -jar /var/lib/jenkins/workspace/SpringBoot_Web_Application/target/news.war &'
+                   sh 'pwd'
+                   sh 'java -jar /var/lib/jenkins/workspace/SpringBoot_Web_Application/target/news.war &'
 
-             // }
-         // }
+              }
+          }
 
 
 
