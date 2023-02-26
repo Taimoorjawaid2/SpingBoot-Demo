@@ -7,15 +7,15 @@ agent any
         maven "Maven"
     }
 
-        stages {
+     //   stages {
 
 
-        	stage("Git Clone"){
-                 steps {
+       // 	stage("Git Clone"){
+         //        steps {
 
-                git credentialsId: 'GIT_CREDENTIALS', url: 'https://github.com/owais2021/Setup-Spring-boot-Application-Jenkins-Pipeline.git'
-              }
-           }
+          //      git credentialsId: 'GIT_CREDENTIALS', url: 'https://github.com/owais2021/Setup-Spring-boot-Application-Jenkins-Pipeline.git'
+          //    }
+          // }
 
 
              stage('Build') {
@@ -66,14 +66,14 @@ agent any
         }
 
 
-        stage("Run Application") {
-              steps {
+      ///  stage("Run Application") {
+           //    steps {
 
-                   sh 'pwd'
-                   sh 'java -jar /var/lib/jenkins/workspace/SpringBoot_Web_Application/target/news.war &'
+              //     sh 'pwd'
+              //     sh 'java -jar /var/lib/jenkins/workspace/SpringBoot_Web_Application/target/news.war &'
 
-              }
-          }
+             // }
+         // }
 
 
 
