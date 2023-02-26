@@ -49,6 +49,8 @@ agent any
                  steps {
 
                 sh 'docker push owaiskhan02/webapplication:news'
+                sh 'docker run 8081:8081 news'
+
 
                 }
             }
