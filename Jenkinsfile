@@ -29,9 +29,9 @@ agent any
                  steps {
 
                     sh 'docker version'
-                    sh 'docker build -t demo .'
+                    sh 'docker build -t news .'
                     sh 'docker image list'
-                    sh 'docker tag news owaiskhan02/webapplication:demo'
+                    sh 'docker tag news owaiskhan02/webapplication:news'
 
 
                 }
@@ -49,7 +49,7 @@ agent any
             stage("Push Image to Docker Hub"){
                  steps {
 
-                sh 'docker push owaiskhan02/webapplication:demo'
+                sh 'docker push owaiskhan02/webapplication:news'
 
 
 
@@ -70,7 +70,7 @@ agent any
            //    steps {
 
               //     sh 'pwd'
-              //     sh 'java -jar /var/lib/jenkins/workspace/SpringBoot_Web_Application/target/news-0.0.1.jar &'
+              //     sh 'java -jar /var/lib/jenkins/workspace/SpringBoot_Web_Application/target/news.jar &'
 
              // }
          // }
