@@ -47,7 +47,7 @@ Secondly, we are using DockerHub for uploading/pushing the Docker image.
 ## Dockerfile:
 - This is Dockerfile for building the docker image.
 
-![image](https://user-images.githubusercontent.com/76844360/212007317-f41f04e1-e8ed-4097-a5ee-fcfc73d91d80.png)
+![image](https://user-images.githubusercontent.com/76844360/221511825-69105f50-92b5-41df-b451-4768a0ca3b93.png)
 
 ### Define stages in Jenkinsfile : 
 
