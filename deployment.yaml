@@ -28,6 +28,6 @@ spec:
       containers:
         - name: news
           image: owaiskhan02/webapplication:news # Image that will be used to containers in the cluster
-          imagePullPolicy: Never
+          imagePullPolicy: Always
           ports:
             - containerPort: 8081 # The port that the container is running on in the cluster
