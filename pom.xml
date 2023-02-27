@@ -9,7 +9,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.contentstack.spring</groupId>
-    <artifactId>demoapp</artifactId>
+    <artifactId>news</artifactId>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
     <name>SampleApp</name>
     <description>Example application using contentstack</description>
