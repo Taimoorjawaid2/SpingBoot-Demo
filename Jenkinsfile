@@ -29,7 +29,7 @@ agent any
                  steps {
 
                     sh 'docker version'
-                    sh 'docker build -t news .'
+                    sh 'docker build -t demoapp .'
                     sh 'docker image list'
                     sh 'docker tag news owaiskhan02/webapplication:demoapp'
 
