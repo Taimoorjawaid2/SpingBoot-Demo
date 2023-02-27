@@ -4,5 +4,5 @@ FROM openjdk:11
 WORKDIR /opt
 ENV PORT 8081
 EXPOSE 8081
-ADD target/news-0.0.1.war /opt/news-0.0.1.war
-ENTRYPOINT ["java","-jar","/news-0.0.1.war"]
+ADD target/news.jar /opt/news.jar
+ENTRYPOINT ["java","-jar","/news.jar"]
